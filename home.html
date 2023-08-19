@@ -1,25 +1,61 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            E-Fiesta 
-        </title>
-    </head>
-    <body>
-        <h1>E-Fiesta - Freshers party for electrical departmet</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshers' Party - IIT BHU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Freshers' Party</h1>
+        <p>Welcome to the most exciting event of the year!</p>
+    </header>
 
-        <h3>Hello freshers,welcome to official page of E-fiesta ,</h3>
-        <h3>the freshers' party of Electrical Department, IIT BHU(Varanasi).</h3>   
-        <h3>Do join the freshers on 27th August 2023 at The Vibe Bar and Restaurant ,Sigra ,Varanasi from 7 P.M.</h3>  
-        <h3>Make sure to register for the party before 22nd August 2023.</h3>    
-        <h3>Many surprises waiting for you!!!!! </h3>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#registration">Registration</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
-        
+<section id="about">
+<h2>About the Event</h2>
+<p>Come join us for a night of fun, music, and celebration as we welcome the newest members of our university community. It's an event you don't want to miss!</p>
+</section>
 
-        
-    </body>
+<section id="schedule">
+<h2>Event Schedule</h2>
+<ul>
+    <li>Date: 28th August 2023</li>
+    <li>Time: 8 PM onwards</li>
+    <li>Location: The Vibe Bar and restaurent ,Sigra ,Varanasi</li>
+</ul>
+</section>
 
+<section id="registration">
+<h2>Registration</h2>
+<p>To attend the freshers' party, please fill out the registration form below:</p>
+<form action="process_registration.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Register">
+</form>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>If you have any questions or need more information, feel free to contact us at <a href="mailto:anshpandey20102004@gmail.com">email</a>.</p>
+</section>
+
+<footer>
+<p>&copy; 2023 Freshers' Party</p>
+</footer>
+</body>
 </html>
